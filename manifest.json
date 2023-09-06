@@ -10,6 +10,6 @@
     "default_popup": "hello.html"
     },
     "chrome_url_overrides" : {
-        "newtab": "easyLSH_newtab"
+        "newtab": "easylsh_newtab/index.html"
     }
 }
