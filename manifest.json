@@ -11,5 +11,8 @@
     },
     "chrome_url_overrides" : {
         "newtab": "easylsh_newtab/index.html"
+    },
+    "background": {
+        "service_worker": "scripts/background.js"
     }
 }
