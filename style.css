@@ -3,10 +3,6 @@ body {
     margin: 0px;
 }
 
-.popup-body {
-    height: 100px;
-}
-
 div {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5px;
@@ -67,9 +63,31 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
     font-size: 30px;
     font-weight: bold;
-    padding: 15px;
+    padding: 10px;
+    text-align: center;
 }
 
-.dont-wrap-text{
+.dont-wrap-text {
     white-space: nowrap;
+}
+
+.grid-container {
+    background-color: transparent;
+    display: inline-grid;
+    grid-template-columns: repeat(5, 80px);
+    gap: 10px;
+}
+
+.no-style-div {
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid-cell {
+    width: 70px;
+    height: 70px;
+    /* float: left; */
+    border-radius: 10px;
+    margin: 0px;
 }
