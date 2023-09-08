@@ -1,10 +1,10 @@
 body {
     background-color: gray;
+    margin: 0px;
 }
 
 div {
     background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 10px;
     padding: 5px;
 }
 
@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, p {
     width: 100px;
     height: 100px;
 } */
+
+.round-corners {
+    border-radius: 10px;
+}
 
 .center {
     position: absolute;
@@ -52,4 +56,16 @@ h1, h2, h3, h4, h5, h6, p {
 .link-button:hover {
     background-color: #0d141b; /* Change the background color on hover */
     color: white;
+}
+
+.popup-header {
+    background-color: #48ad00;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.dont-wrap-text{
+    white-space: nowrap;
 }
