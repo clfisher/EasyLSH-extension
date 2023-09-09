@@ -13,19 +13,9 @@ h1, h2, h3, h4, h5, h6, p {
     color: white;
 }
 
-/* .center{
-    display: inline-block;
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    min-width: 100px;
-    min-height: 100px;
-    width: 100px;
-    height: 100px;
-} */
+.center-text {
+    text-align: center;
+}
 
 .round-corners {
     border-radius: 10px;
@@ -75,7 +65,11 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: transparent;
     display: inline-grid;
     grid-template-columns: repeat(5, 80px);
-    gap: 10px;
+    gap: 5px;
+}
+
+.tile-settings-container {
+    float: left;
 }
 
 .no-style-div {
@@ -88,6 +82,10 @@ h1, h2, h3, h4, h5, h6, p {
     width: 70px;
     height: 70px;
     /* float: left; */
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 0px;
+}
+
+.side-by-side-container {
+    display: flex;
 }
