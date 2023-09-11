@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p {
     white-space: nowrap;
 }
 
-.grid-container {
+/* .grid-container {
     background-color: transparent;
     display: inline-grid;
     grid-template-columns: repeat(5, 80px);
@@ -81,11 +81,11 @@ h1, h2, h3, h4, h5, h6, p {
 .grid-cell {
     width: 70px;
     height: 70px;
-    /* float: left; */
     border-radius: 5px;
     margin: 0px;
 }
 
 .side-by-side-container {
     display: flex;
-}
+} */
+
