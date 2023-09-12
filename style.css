@@ -1,25 +1,16 @@
 body {
-    background-color: gray;
-    /* background-repeat: repeat; */
+    background-color: rgb(62, 94, 182);
     margin: 0px;
     background-size: cover;
     background-position: center;
-}
-
-.background-container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background-color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+    background-image: url('backgrounds/background1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 div {
-    /* background-color: rgba(0, 0, 0, 0.7); */
-    background-color: rgba(22, 0, 121, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background-color: rgba(22, 0, 121, 0.7); */
     padding: 5px;
 }
 
@@ -64,7 +55,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .popup-header {
-    background-color: #160079;
+    background-color: #12267e;
     color: white;
     font-size: 30px;
     font-weight: bold;
