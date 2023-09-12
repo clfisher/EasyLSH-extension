@@ -61,6 +61,10 @@ h1, h2, h3, h4, h5, h6, p {
     white-space: nowrap;
 }
 
+#settings-div .content {
+    display: none;
+}
+
 /* .grid-container {
     background-color: transparent;
     display: inline-grid;
@@ -70,7 +74,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .tile-settings-container {
     float: left;
-}
+} */
 
 .no-style-div {
     background-color: transparent;
@@ -78,6 +82,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
 }
 
+/*
 .grid-cell {
     width: 70px;
     height: 70px;
@@ -87,5 +92,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .side-by-side-container {
     display: flex;
-} */
+}
 
+*/

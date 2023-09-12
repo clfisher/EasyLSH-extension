@@ -14,9 +14,15 @@ document.addEventListener("DOMContentLoaded", function () {
     //     localStorage.setItem("test", 3)
     // })
 
-    var settings_buttons_div = document.getElementById("settings-buttons-div")
-    settings_buttons_div.addEventListener("click", function (e) {
-        console.log(e.target)
-        console.log(e.target.attributes['data-settings-button'].value)
+    // var settings_buttons_div = document.getElementById("settings-buttons-div")
+    // settings_buttons_div.addEventListener("click", function (e) {
+    //     console.log(e.target)
+    //     console.log(e.target.attributes['data-settings-button'].value)
+    // })
+
+    var schedule_button = document.getElementById("schedule-button")
+    schedule_button.addEventListener("click", function(e) {
+        alert("test")
     })
+
 })
