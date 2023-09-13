@@ -47,7 +47,13 @@ h1, h2, h3, h4, h5, h6, p {
     /* transition: background-color 0.3s ease; */
     transition: all 0.15s ease;
     margin: 5px;
-  }
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
   
 .link-button:hover {
     background-color: #0d141b; /* Change the background color on hover */
@@ -67,7 +73,7 @@ h1, h2, h3, h4, h5, h6, p {
     white-space: nowrap;
 }
 
-#settings-div .content {
+#settings-div .settings-div-content {
     display: none;
 }
 
@@ -96,8 +102,13 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0px;
 }
 
+*/
+
 .side-by-side-container {
     display: flex;
 }
 
-*/
+.settings-button-panel {
+    flex: 1;
+    min-width: 150px;
+}

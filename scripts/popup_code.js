@@ -22,7 +22,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var schedule_button = document.getElementById("schedule-button")
     schedule_button.addEventListener("click", function(e) {
-        alert("test")
+        show_settings_div('schedule')
     })
+
+    var test_button = document.getElementById("test-button")
+    test_button.addEventListener("click", function(e) {
+        show_settings_div('test')
+    })
+
+    function show_settings_div(setting) {
+        var settings_div = document.getElementById('settings-div')
+        var content_divs = document.getElementsByClassName('settings-div-content')
+
+        for (let i = 0; i < content_divs.length; i++) {
+            div = content_divs[i]
+            if(div.attributes['data-setting'].value == setting) {
+                div.style.display = 'block'
+            } else {
+                div.style.display = 'none'
+            }
+        }
+    }
 
 })
