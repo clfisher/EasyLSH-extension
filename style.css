@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .popup-header {
-    background-color: #12267e;
+    background-color: #1a36af;
     color: white;
     font-size: 30px;
     font-weight: bold;
@@ -111,4 +111,5 @@ h1, h2, h3, h4, h5, h6, p {
 .settings-button-panel {
     flex: 1;
     min-width: 150px;
+    border-right: 2px solid #1a36af;
 }
