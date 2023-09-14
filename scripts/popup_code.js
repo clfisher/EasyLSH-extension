@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var schedule_button = document.getElementById("schedule-button")
     schedule_button.addEventListener("click", function(e) {
         show_settings_div('schedule')
+
+        var template = document.getElementById('set-schedule-period')
+        var aday_schedule_header = document.getElementById('aday-schedule-header')
     })
 
     var test_button = document.getElementById("test-button")
