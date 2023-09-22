@@ -47,4 +47,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    load_schedule_template_divs()
+
+    function load_schedule_template_divs() {
+        const template = document.getElementById('set-schedule-period')
+        load_content_to_div(template, document.getElementById('bday-schedule-div'))
+        load_content_to_div(template, document.getElementById('aday-schedule-div'))
+
+        function load_content_to_div(content, div) {
+            const clone = document.importNode(content, true)
+            div.appendChild(clone)
+        }
+    }
+
 })
